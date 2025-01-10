@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Layout from Image</title>
+    <style>
+        header{
+            background-color: blueviolet;
+            text-align: center;
+            text-decoration: aliceblue;
+        }
+        #sec{
+            margin: 20px;
+        }
+        #clr{
+            background-color: blue;
+            text-decoration-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 >My Portfolio</h1><br>
+        <nav><a href="">Home</a>
+        <a href="">About</a>
+    <a href="">Projects</a>
+<a href="">Contact</a></nav>
+
+    </header>
+    <section id="sec">
+    <h1 >Welcome to My Portfolio</h1><br>
+    <p>This portfolio showcases my projects and provides information about my background and contact details.</p>
+    <br>
+    <h1>About</h1><br>
+    <p>Hello I'm a web developer passionate about building dynamic and responsive websites. I enjoy creating user-friendly
+        interfaces and working on challenging projects.
+    </p></section>
+    <section id="sec">
+        <h1> Projects</h1><br>
+        <table border="2px" >
+            <thead id="clr">
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Project Alpha</td>
+                <td><p>A web-based tool for tracking project progress and managing tasks.</p></td>
+                <td>2023</td>
+              </tr>
+              <tr>
+                <td>Portfolio Site</td>
+                <td><p>A personal website showcasing my work and skills as a web developer.</p></td>
+                <td>2024</td>
+              </tr>
+        </table>
+
+    </section>
+    <section id="sec">
+        <label for="">Name:</label>
+    <input type="text" > <br>
+    <label for="">Email:</label>
+    <input type="email"><br>
+      <label for="">Leave your Message:</label><br>
+  <textarea id="Message" name="Message" rows="4" cols="50"></textarea><br>
+  <input type="button" value="Submit">
+    </section>
+</body>
+</html>
